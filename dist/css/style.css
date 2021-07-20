@@ -137,7 +137,8 @@ header {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 100%;
+  text-align: center;
 }
 
 .nav {
@@ -468,4 +469,8 @@ header {
 
 .portfolio-item-individual p {
   max-width: 800px;
+}
+
+.btn__link{
+  font-size: 9px;
 }
