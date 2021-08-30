@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakesh Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Custom fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap">
+    <!-- link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" -->
+
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h3>hello there!</h3>
+        <a class="btn btn__link" href="resources/Rakesh_HM_Resume___2021.pdf" download>Download My Resume</a>
+      </div>
+      <button type="button" name="button" class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">Things I know</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+        </ul>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I'm <strong>Rakesh HM</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Business Analyst</p>
+      <img src="img/intro.jpg" class="intro__img" alt="picture of rakesh">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Things I'm proud of doing</h2>
+      <div class="services">
+        <div class="service">
+          <h3>CX/XM</h3>
+          <p>Help clients effectively design & implement scalable SaaS based solution for their CX
+             programs in different verticals like B2B, Retail, Telcom and Financial Services.
+             Also, to document and manage the programs according to the clients need using best practices.</p>
+        </div> <!-- / service -->
+        <div class="service">
+          <h3>HTML/CSS/JS/Python</h3>
+          <p>Writing good & scalable scripts with JS & HTML. Debug & fix errors in an application developed with HTML/CSS/JS.
+            Working with ML models to derive insights from unstructured data. And creating web application using Flask. </p>
+        </div> <!-- / service -->
+        <div class="service">
+          <h3>HandStand & Muscle-up</h3>
+          <p>More than anything I'm proud of performing these skills, as this helped
+             me understand the value of persistance & hard-work, and how much you can achieve just
+              by taking small steps everyday!</p>
+        </div> <!-- / service -->
+      </div> <!-- / services -->
+      <a href="#projects" class="btn">Worked on</a>
+
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Long story short</h2>
+      <p class="section__subtitle section__subtitle--about">Analyst | Designer | Developer</p>
+
+      <div class="about-me__body">
+        <p>Experienced Business Analyst at developing and implementing operational processes and
+        systems for complex projects in different verticals like B2B, Retail, Financial Services to effectively design, document and manage
+        scalable SaaS based solution according to the clients need using the best practices.</p>
+        <p></p>
+      </div>
+      <img src="img/rak.jpg" class="about-me__img" alt="rhm">
+    </section>
+
+    <!-- My Projects -->
+    <section class="my-projects" id="projects">
+      <h2 class="section__title">My Roles</h2>
+      <p class="section__subtitle section__subtitle--projects">in current & ex-organization</p>
+      <div class="portfolio">
+        <!-- Protfolio item 01 -->
+        <a href="portfolio-item1.html" class="portfolio__item">
+          <img src="img/portfolio_01.jpg" alt="" class="portfolio__img">
+        </a>
+      <!-- Protfolio item 02 -->
+        <a href="portfolio-item2.html" class="portfolio__item">
+          <img src="img/portfolio_02.jpg" alt="" class="portfolio__img">
+        </a>
+      <!-- Protfolio item 03 -->
+        <a href="portfolio-item3.html" class="portfolio__item">
+          <img src="img/portfolio_03.jpg" alt="" class="portfolio__img">
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <h3>Contact me</h3>
+      <ul class="social-list">
+        <!-- Linkedin -->
+        <li class="social-list__item">
+          <a href="https://www.linkedin.com/in/rakesh-hm-7b4253102" class="social-list__link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <!-- Email -->
+        <li class="social-list__item">
+          <a href="mailto:r4k3sh.hm@gmail.com" class="social-list__link">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+        <!-- Phone -->
+        <li class="social-list__item">
+          <a href="tel:9498093404" class="social-list__link">
+            <i class="fas fa-mobile"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js" type="text/javascript"></script>
+
+  </body>
+</html>
